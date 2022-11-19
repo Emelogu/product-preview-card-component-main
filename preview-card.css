@@ -19,7 +19,7 @@ body{
     width: 900px;
     height: 500px;
     margin-left: 20px;
-    box-shadow: hsla(230, 9%, 50%, 0.548) 4px 3px 2px ;
+    border-radius: 7px;
 }
 
 h4{

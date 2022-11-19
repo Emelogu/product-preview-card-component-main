@@ -5,8 +5,8 @@
 
 body{
     padding-top: 100px;
-    padding-bottom: 1000px;
-    padding-top: 1000px;
+    padding-bottom: 500px;
+    padding-top: 500px;
     padding-left: 100px;
     padding-right: 100px;
     font-family: "Fraunces", "Montserrat";
@@ -101,7 +101,7 @@ p{
 }
 
 .order-btn{
-    display: flex;
+    display: inline;
     position: relative;
     flex-direction: row;
     align-items: center;
@@ -123,9 +123,8 @@ button{
 }
 
 .fa fa-shopping-cart{
-    display: inline;
     position: absolute;
-    bottom: 50px;
-    left: 80px;
+    margin-right: 20px;
+    background-color: white;
 }
 

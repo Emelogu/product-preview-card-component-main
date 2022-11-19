@@ -101,14 +101,12 @@ p{
 }
 
 .order-btn{
-    display: inline;
-    position: relative;
-    flex-direction: row;
-    align-items: center;
+    display: flex;
 }
 
 button{
     display: inline;
+    position: relative;
     margin-top: 5px;
     width: 170px;
     background-color: hsl(158, 36%, 37%);
@@ -124,7 +122,7 @@ button{
 
 .fa fa-shopping-cart{
     position: absolute;
-    margin-right: 20px;
+    right: 20px;
     background-color: white;
 }
 
